@@ -1,3 +1,8 @@
 # SAS ODS EXCEL
 
 http://blogs.sas.com/content/sasdummy/2014/08/29/experimenting-with-ods-excel-to-create-spreadsheets-from-sas/
+
+#SAS remote to ODBC
+
+libname odbclib odbc dsn="&dsn" uid="&dbuser" pwd="&pwd";
+
